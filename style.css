@@ -46,10 +46,11 @@ body {
     opacity: 0.8;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.05s ease-in-out;
 }
 
-.main>button:hover {
-    border-width: 0px;
+.main>a>button:hover {
+    transform: scale(0.95);
 }
 
 /*StackOverflow solution*/
@@ -97,9 +98,14 @@ body {
     color: rgb(61, 57, 57);
 }
 
-.about>a>i {
+.about>a {
     font-size: 60px;
     cursor: pointer;
+    transition: all 0.05s ease-in-out;
+}
+
+.about>a:hover{
+    transform: scale(0.95);
 }
 
 .about>a:link,
@@ -108,4 +114,5 @@ body {
 .about>a:active {
     text-decoration: none;
     color: black;
+    
 }
