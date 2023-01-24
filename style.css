@@ -26,16 +26,18 @@ body {
     font-weight: 300;
     font-size: 4rem;
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .main>p {
     color: rgb(246, 238, 238);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1.5rem;
+    max-width: 320px;
 }
 
-.main > a > button {
+.main>a>button {
     color: #d4daea;
     background-color: #3a4052;
     border-width: 1px;
@@ -87,7 +89,7 @@ body {
 .about>p {
     font-size: 1.1rem;
     margin-bottom: 1.2rem;
-   text-align: center;
+    text-align: center;
     max-width: 600px;
     line-height: 1.8rem;
 }
@@ -98,21 +100,20 @@ body {
     color: rgb(61, 57, 57);
 }
 
-.about>a {
+.about>div>a {
     font-size: 60px;
     cursor: pointer;
     transition: all 0.05s ease-in-out;
 }
 
-.about>a:hover{
+.about>div>a:hover {
     transform: scale(0.95);
 }
 
-.about>a:link,
-.about>a:visited,
-.about>a:hover,
-.about>a:active {
+.about>div>a:link,
+.about>div>a:visited,
+.about>div>a:hover,
+.about>div>a:active {
     text-decoration: none;
     color: black;
-    
 }
